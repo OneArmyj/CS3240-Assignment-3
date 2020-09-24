@@ -1,0 +1,97 @@
+/* experience section */
+#experience {
+    color: #696969;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 16%;
+}
+
+.experience-title {
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* tree image */
+.tree-trunk {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 9%;
+    left: 46%;
+    z-index: -1;
+}
+
+.tree-branch {
+    background-color: #345C33;
+    height: 10px;
+    margin: 0;
+    margin-top: 3%;
+}
+
+.tree-soil {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+/* texts */
+.job-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2em;
+}
+
+.company {
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.role {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* space between rows */
+.job1.container {
+    padding-top: 10%;
+}
+
+.job2.container {
+    padding-top: 2%;
+}
+
+.job3.container {
+    padding-top: 2%;
+}
+
+.button-holder {
+    margin-top: 5%;
+}
+
+.experience-btn {
+    margin-top: 2%;
+    background-image: linear-gradient(#4E1104, #4E1104) !important;
+}
+
+@media screen and (max-width:1280px) {
+    .experience-title {
+        font-size: 44px;
+    }
+
+    /* texts */
+    .job-text {
+        font-size: 18px;
+    }
+
+    .company {
+        font-size: 24px;
+    }
+
+    .role {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,86 @@
+/* hobbies section */
+#hobbies {
+    color: #696969;
+    position: relative;
+    padding-top: 12%;
+    padding-bottom: 16%;
+}
+
+.hobbies-title {
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hobbies .row {
+    padding-top: 6em;
+}
+
+.header {
+    color: #AA2B0F;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hobbies-text {
+    font-size: 24px;
+}
+
+.hobbies-bold {
+    font-weight: 700;
+}
+
+.guitar-icon {
+    top: -2em;
+}
+
+.art-icon {
+    top: -2em;
+}
+
+.hobbies-btn {
+    background-image: linear-gradient(#B41005, #C9554D) !important;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:1280px) {
+
+    /* small hobby */
+    #hobbies .row {
+        padding-top: 2em;
+    }
+
+    .title {
+        color: black;
+        font-size: 44px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .header {
+        color: #AA2B0F;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .hobbies-text {
+        font-size: 18px;
+    }
+
+    .guitar-icon {
+        top: 0;
+    }
+
+    .art-icon {
+        top: 0;
+    }
+
+    .gaming-icon {
+        top: 4em;
+    }
+
+    .hobbies-btn {
+        margin-top: 7%;
+    }
+}

@@ -1,0 +1,32 @@
+/* navbar section */
+#nav-bar {
+    z-index: 10;
+    position: sticky !important;
+    top: 0;
+}
+
+/* logo */
+.navbar-brand img {
+    padding-left: 20px;
+}
+
+/* space between nav links */
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+/* font of nav links */
+.navbar-nav li a {
+    color: #696969;
+    font-weight: 500;
+}
+
+/* burger button of nav links */
+.fa-bars {
+    color: #696969;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
