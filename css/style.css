@@ -1,0 +1,580 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 110%;
+}
+
+@media(min-width:60em) {
+    html {
+        font-size: 90%
+    }
+}
+
+/* navbar section */
+#nav-bar {
+    z-index: 10;
+    position: sticky !important;
+    top: 0;
+}
+
+.navbar-brand img {
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #696969;
+    font-weight: 500;
+}
+
+.fa-bars {
+    color: #696969;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* landing section */
+#landing {
+    padding-top: 10%;
+    color: #696969;
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.name {
+    color: black;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.education {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.social {
+    width: 56px;
+    height: 56px;
+    margin-right: 2em;
+}
+
+.hill {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    top: -5%;
+}
+
+/* about section */
+#about {
+    color: #696969;
+    padding-top: 25vh;
+    padding-bottom: 22vh;
+    position: relative;
+}
+
+.about {
+    color: black;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.hi {
+    color: #AA2B0F;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.firstline {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.textbody {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.lastline1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.lastline2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.selfPortrait {
+    width: 100%;
+    height: auto;
+}
+
+#about .col-md-8 {
+    top: 2em;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    padding: 10px 20px;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 22px;
+}
+
+.red {
+    background-image: linear-gradient(#B41005, #C9554D) !important;
+    margin-top: 5em;
+}
+
+/* hobby section */
+#hobbies {
+    color: #696969;
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+}
+
+#hobbies .row {
+    padding-top: 5em;
+}
+
+.title {
+    color: black;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header {
+    color: #AA2B0F;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.guitar-icon {
+    top: -2em;
+}
+
+.art-icon {
+    top: -2em;
+}
+
+/* experience section */
+#experience {
+    color: #696969;
+    position: relative;
+    padding-top: 16vh;
+    padding-bottom: 80em;
+}
+
+.experience-background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 17em;
+    z-index: -1;
+}
+
+.company {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.role {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.job1.container {
+    padding-top: 18em;
+}
+
+.job-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2em;
+}
+
+.job2.container {
+    padding-top: 14em;
+}
+
+.job3.container {
+    padding-top: 14em;
+}
+
+.brown {
+    margin-top: 2em;
+    background-image: linear-gradient(#4E1104, #4E1104) !important;
+    ;
+}
+
+/* projects section */
+#projects {
+    color: #696969;
+    position: relative;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+#projects .title {
+    padding-top: 1em;
+}
+
+#projects .desc {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+
+#myCarousel {
+    border: 2px solid #696969;
+    border-radius: 5%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.carousel.carousel-fade .carousel-item {
+    transition: opacity ease-out 1.0s;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 35%;
+    height: 30%;
+    width: 50px;
+    background-color: #696969;
+    z-index: 8;
+}
+
+.proj .row {
+    height: 550px;
+}
+
+.proj-text {
+    padding-left: 10em;
+}
+
+.proj-name {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.proj-desc {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.techstack {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.proj-btn {
+    background-image: linear-gradient(#B41005, #C9554D) !important;
+    margin-top: 1em;
+}
+
+#back-to-top-btn {
+    margin-top: 15px;
+    font-size: 40px;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    color: #696969;
+    outline: none;
+    border: 3px solid #696969;
+    border-radius: 50%;
+}
+
+/* END OF BIG SCREEN */
+
+@media screen and (max-width:1280px) {
+
+    /* small landing */
+    .name {
+        color: black;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .education {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .social {
+        width: 40px;
+        height: 40px;
+        margin-right: 2em;
+    }
+
+    .red {
+        background-image: linear-gradient(#B41005, #C9554D) !important;
+        margin-top: 2em;
+    }
+
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:visited {
+        padding: 10px 20px;
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+        font-size: 16px;
+    }
+
+    /* small about */
+    .about {
+        color: black;
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .hi {
+        color: #AA2B0F;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .firstline {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .textbody {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .lastline1 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .lastline2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .selfPortrait {
+        width: 70%;
+        height: auto;
+    }
+
+    /* small hobby */
+    #hobbies {
+        color: #696969;
+        position: relative;
+        padding-top: 20vh;
+        padding-bottom: 40vh;
+    }
+
+    #hobbies .row {
+        padding-top: 5em;
+    }
+
+    .title {
+        color: black;
+        font-size: 44px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .header {
+        color: #AA2B0F;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .guitar-icon {
+        top: -2em;
+    }
+
+    .art-icon {
+        top: -2em;
+    }
+
+    /* small experience */
+    #experience {
+        color: #696969;
+        position: relative;
+        padding-top: 16vh;
+        padding-bottom: 140vh;
+    }
+
+
+    .experience-background {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 13em;
+        z-index: -1;
+    }
+
+    .company {
+        color: black;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .role {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .job1.container {
+        padding-top: 11em;
+    }
+
+    .job-text {
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 2em;
+    }
+
+    .job2.container {
+        padding-top: 6em;
+    }
+
+    .job3.container {
+        padding-top: 4em;
+    }
+
+    .brown {
+        margin-top: 2em;
+        background-image: linear-gradient(#4E1104, #4E1104) !important;
+        ;
+    }
+
+    /* small projects */
+    #projects .title {
+        padding-top: 1em;
+    }
+
+    #projects .desc {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 1em;
+    }
+
+    #myCarousel {
+        border: 2px solid #696969;
+        border-radius: 5%;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .carousel.carousel-fade .carousel-item {
+        transition: opacity ease-out 1.0s;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 35%;
+        height: 30%;
+        width: 50px;
+        background-color: #696969;
+        z-index: 8;
+    }
+
+    .proj .row {
+        height: 500px;
+    }
+
+    .proj-text {
+        padding-left: 12em;
+    }
+
+    .proj-name {
+        color: black;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .proj-desc {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .techstack {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    #projects .img-responsive {
+        padding-right: 2em;
+    }
+
+    #back-to-top-btn {
+        margin-top: 15px;
+        font-size: 30px;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        color: #696969;
+        outline: none;
+        border: 3px solid #696969;
+        border-radius: 50%;
+    }
+}
