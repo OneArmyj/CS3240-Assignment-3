@@ -3,7 +3,7 @@
     color: #696969;
     position: relative;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .projects-title {
@@ -75,7 +75,7 @@
 }
 
 #back-to-top-btn {
-    margin-top: 4%;
+    margin-top: 2%;
     font-size: 40px;
     width: 75px;
     height: 75px;
